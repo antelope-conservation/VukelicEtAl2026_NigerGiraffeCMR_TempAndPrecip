@@ -62,3 +62,15 @@ Contains `.geojson` file.
 - **GZ_simple**  
   Used in Google Earth Engine to extract the climate data for the Giraffe Zone.  
   Data can be extracted using the code found in folder `gee_climate_extraction`.
+
+---
+
+  ## Data Sources
+
+Climate data were accessed via the Google Earth Engine (GEE) Data Catalog (Gorelick et al., 2017).
+
+- ERA5 daily reanalysis data (ECMWF/ERA5/DAILY; Copernicus Climate Change Service (C3S), 2017)
+- CHIRPS daily precipitation data (UCSB-CHG/CHIRPS/DAILY; Funk et al., 2015)
+
+The Giraffe Zone habitat polygon was digitised from:
+- O’Connor et al. (2019)
