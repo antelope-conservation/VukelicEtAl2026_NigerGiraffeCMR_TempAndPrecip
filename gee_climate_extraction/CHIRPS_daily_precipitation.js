@@ -1,20 +1,7 @@
-//
-// === 1. Load polygon (USER MUST SUPPLY) ===
-// Provide the same habitat polygon used in the study by uploading it to your GEE Assets.
-// Example:
-// var GZ_simple = ee.FeatureCollection('your_path/GZ_simple');
-//
-
-var GZ_simple = ee.FeatureCollection('your_path/GZ_simple'); // <-- replace
-
-//or
-
-//
 // === Load habitat polygon ===
 // 1) Download the GeoJSON from the repository: spatial_data_for_gee/GZ_simple.geojson
 // 2) Upload it to your Google Earth Engine Assets
 // 3) Replace 'your_path/GZ_simple'
-//
 
 var GZ_simple = ee.FeatureCollection('your_path/GZ_simple'); // <- replace
 
@@ -63,6 +50,6 @@ print('Daily precipitation (sample):', dailyPrecip.limit(10));
 // 6. Export to Google Drive or asset
 Export.table.toDrive({
   collection: dailyPrecip,
-  description: 'DailyPrecip_GZ_simple_2005_18',
+  description: 'DailyPrecip_GZ_simple_05_18',
   fileFormat: 'CSV'
 });
