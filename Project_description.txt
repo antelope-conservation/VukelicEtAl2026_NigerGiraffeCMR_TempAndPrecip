@@ -20,15 +20,16 @@ WA_giraffe_encounter_histories - used in all scripts
 
 
 DailyMaxTemp_GZ_simple_05_18 - used in scripts 'MSMR_temperature_GZ' and 'GOF_MSMR_temperature'
-			     - contains maximum daily temperature in °C from 1.1.2025. until 31.12.2018.
+			     - contains 2 columns with date and temperature; maximum daily temperature in °C from 1.1.2025. until 31.12.2018.
 
 
 
 DailyPrecip_GZ_simple_05_18 - used in scripts 'MSMR_precipitation_GZ' and 'GOF_MSMR_precipitation'
-			    - contains daily precipitation im mm from 1.1.2025. until 31.12.2018.
+			    - contains 2 columns with date and precipitation; daily precipitation im mm from 1.1.2025. until 31.12.2018.
 
 
 	       
+
 
 
 
