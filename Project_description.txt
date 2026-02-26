@@ -1,6 +1,7 @@
-Scripts: 
+Folder: R
+- contains R scripts
 
-MSMR_temperature_GZ - Used to perform multistate mark-recapture (MSMR) analysis with temperature as a covariate (temperature is expressed as the number of days with maximum daily temperature equal or above 35°C).
+MSMR_temperature_GZ - Used to perform multistate mark-recapture (MSMR) analysis with temperature as a covariate (temperature is expressed as the number of days with maximum daily temperature equal or above 35°C, excluding December-February period).
 
 GOF_MSMR_temperature - Used to create and export saturated global MSMR model with temperature as a covariate for the goodness of fit  analysis.
 
@@ -10,13 +11,10 @@ GOF_MSMR_precipitation - Used to create and export saturated global MSMR model w
 
 
 
+Folder: data_for_R
+- contains .csv files used in R analysis
 
-Datasets:
-
-WA_giraffe_encounter_histories - used in all scripts
-                               - contains 2 columns, sex and capture history between 2005 and 2019
-                               - SEX: 	1 = males,	0 = females
-                               - ch:	1 = juvenile,	2 = subadult,	3 = adult
+WA_giraffe_encounter_histories - Encounter histories used in the MSMR analyses are not included in this repository due to data governance arrangements and the conservation status of the West African giraffe. The dataset is collectively owned by the responsible Nigerien authorities and collaborating conservation organisations. Access may be granted upon reasonable request and subject to an appropriate Data Sharing Agreement with the responsible institutions. To request the data, contact the corresponding author.
 
 
 DailyMaxTemp_GZ_simple_05_18 - used in scripts 'MSMR_temperature_GZ' and 'GOF_MSMR_temperature'
@@ -28,7 +26,10 @@ DailyPrecip_GZ_simple_05_18 - used in scripts 'MSMR_precipitation_GZ' and 'GOF_M
 			    - contains 2 columns with date and precipitation; daily precipitation im mm from 1.1.2025. until 31.12.2018.
 
 
+
+
 	       
+
 
 
 
