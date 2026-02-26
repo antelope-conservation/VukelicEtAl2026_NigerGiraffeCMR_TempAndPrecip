@@ -1,9 +1,22 @@
+//
 // === 1. Load polygon (USER MUST SUPPLY) ===
 // Provide the same habitat polygon used in the study by uploading it to your GEE Assets.
 // Example:
 // var GZ_simple = ee.FeatureCollection('users/your_username/GZ_simple');
+//
 
 var GZ_simple = ee.FeatureCollection('users/REPLACE_WITH_YOUR_ASSET/GZ_simple'); // <-- replace
+
+//or
+
+//
+// === Load habitat polygon ===
+// 1) Download the GeoJSON from the repository: spatial_data/Giraffe_Zone_Polygon_OConnor2019_digitised.geojson
+// 2) Upload it to your Google Earth Engine Assets
+// 3) Replace 'users/YOUR_USERNAME/Giraffe_Zone_Polygon_OConnor2019_digitised'
+//
+
+var GZ_simple = ee.FeatureCollection('users/YOUR_USERNAME/Giraffe_Zone_Polygon_OConnor2019_digitised');
 
 // Optionally check it
 print('GZ_simple', GZ_simple);
