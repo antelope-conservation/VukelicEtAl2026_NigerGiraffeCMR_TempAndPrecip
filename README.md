@@ -3,7 +3,7 @@ This repository contains supporting data and analysis scripts for the manuscript
 
 “Socio-economic instability and food insecurity drive extinction risk under climate change: insights from the Vulnerable West African giraffe.”
 
-The repository provides R scripts used to perform capture-mark-recapture (CMR) analyses assessing the effects of temperature and precipitation on apparent survival of the West African giraffe in the Giraffe Zone (2005–2018). Analyses were implemented within a multistate mark-recapture (MSMR) modelling framework.
+The repository provides R scripts used to perform capture-mark-recapture (CMR) analyses assessing the effects of temperature and precipitation on apparent survival of the West African giraffe in the Giraffe Zone, Niger (2005–2018). Analyses were implemented within a multistate mark-recapture (MSMR) modelling framework.
 
 It further includes the Google Earth Engine (GEE) scripts used to derive climate covariates, as well as the digitised habitat polygon required to reproduce the climate data extraction workflow.
 
